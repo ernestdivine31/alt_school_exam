@@ -1,0 +1,25 @@
+.navContainer {
+    background-color: aquamarine;
+    height: 60px;
+    margin-bottom: 3em;
+}
+
+.navContainer>nav>ul {
+    display: flex;
+    list-style-type: none;
+    height: inherit;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+}
+
+.navContainer>nav>ul>li {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2em;
+}
+
+.navContainer>nav>ul>li>a {
+    text-decoration: none;
+    font-weight: 600;
+}

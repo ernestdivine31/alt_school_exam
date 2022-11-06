@@ -1,0 +1,47 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.flex>article:nth-of-type(1)>button,
+.flex>form>button {
+    height: 50px;
+    width: 150px;
+    margin: 0 1em;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px 2px inset white;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.flex>article:nth-of-type(1)>button:first-child {
+    background-color: green;
+}
+
+.flex>article:nth-of-type(1)>button:nth-of-type(2) {
+    background-color: red;
+}
+
+.flex>article:nth-of-type(1)>button:last-child {
+    background-color: blue;
+}
+
+.flex>form>button {
+    display: block;
+    background-color: orange;
+}
+
+.flex>form>input {
+    width: 250px;
+    height: 50px;
+    margin: 2em 0;
+    box-sizing: border-box;
+    padding-left: 1em;
+}
