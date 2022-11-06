@@ -1,2 +1,2 @@
 # alt_school_exam
-Alt schoo exam project Task
+Alt school exam project Task
